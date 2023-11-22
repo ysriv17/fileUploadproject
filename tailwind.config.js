@@ -19,8 +19,13 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/pppp.jpg')",
+        "main-pattern": "url('/src/assets/pppppp.jpg')",
+        "hero": "url('/src/assets/pp.jpg')"
       },
+      backgroundPosition:{
+        "position-0.23": "0% 20.5%"
+      }
     },
   },
   plugins: [],

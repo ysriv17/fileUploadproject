@@ -42,8 +42,8 @@ const Works = () => {
         </p>
         <h2 className={styles.sectionHeadText}>Works</h2>
       </motion.div>
-      <div className="w-full flex justify-center">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center w-full"> Throughout my career, I've had the opportunity to take on a variety of projects and achieve significant milestones. 
+      <div className="w-full flex justify-center text-white font-bold font-sans">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3  text-[17px] max-w-3xl leading-[30px] text-center w-full"> Throughout my career, I've had the opportunity to take on a variety of projects and achieve significant milestones. 
         These experiences have not only enriched my professional journey but have also made a positive impact in various ways.These projects and achievements collectively represent my dedication, adaptability, and a strong desire to make a meaningful impact.
          As I continue to grow and evolve professionally, I'm excited about the possibilities that lie ahead and the opportunities to create even more noteworthy projects and achievements.
          Here's a summary of some of my notable projects and achievements.</motion.p>

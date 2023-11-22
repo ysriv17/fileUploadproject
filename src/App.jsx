@@ -4,15 +4,21 @@ const App =()=> {
   return (
     
 <BrowserRouter>
-<div className="relative z-0 bg-primary">
-   <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+  <div className="relative z-0 bg-primary bg-main-pattern  bg-contain bg-no-repeat bg-position-0.23">
+   <div className="bg-hero-pattern bg-cover bg-center">
      <Navbar></Navbar>
      <Hero/>
      </div>
      <About/>
-     <Experience/>
+     {/* <div className="bg-hero "> */}
+          <Experience />
+     {/* </div> */}
+    
      <Tech/>
-     <Works/>
+     <div className="bg-hero-pattern">
+          <Works />
+     </div>
+    
      <Feedbacks/>
      <div className="relative z-0">
       <Contact/>
