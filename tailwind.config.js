@@ -19,9 +19,10 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/pppp.jpg')",
-        "main-pattern": "url('/src/assets/pppppp.jpg')",
-        "hero": "url('/src/assets/pp.jpg')"
+        "hero-pattern": "url('/src/assets/background2.jpg')",
+        "main-pattern": "url('/src/assets/background1.jpg')",
+        "hero": "url('/src/assets/background3.jpg')",
+        "gradient":"linear-gradient(black , #3e3e3e)"
       },
       backgroundPosition:{
         "position-0.23": "0% 20.5%"

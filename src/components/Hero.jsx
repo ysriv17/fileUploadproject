@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react'
-import { ComputersCanvas } from './canvas'
+
 
 
 
@@ -26,14 +26,15 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div className='font-black text-white lg:text-[70px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2'>
-          <h2>Hi,I&apos;m <span className='text-[#915eff]'>YASH AMAN SRIAVSTAVA</span></h2>
+          <h2><span className='text-[#915eff]'>Optimize your resume
+            to get more interviews</span></h2>
           <p className='text-[#dfd9ff] font-medium lg:text-[27px] sm:text-[23px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 '>
-            I Develop 3-D React websites and <br /> MERN Stack Developer.
+            Jobscan helps you optimize your resume for any job, highlighting the key experience and skills recruiters need to see.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas isMobile={isMobile} />
+      
 
 
     </section>
